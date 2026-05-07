@@ -23,3 +23,17 @@
 bin/
 out/
 target/
+# Java
+*.class
+
+# JDK and installers
+jdk*/
+*.dmg
+*.tar.gz
+
+# IDE files
+.idea/
+.vscode/
+
+# Mac files
+.DS_Store
