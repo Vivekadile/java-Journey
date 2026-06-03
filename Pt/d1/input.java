@@ -1,3 +1,4 @@
+package Pt.d1;
 //Reading the mixed types
 
 import java.util.Scanner;

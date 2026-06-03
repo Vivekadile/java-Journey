@@ -1,3 +1,4 @@
+package Pt.d1;
 
 public class implicit {
     public static void main(String[] args) {

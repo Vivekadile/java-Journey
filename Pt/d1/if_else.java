@@ -1,3 +1,4 @@
+package Pt.d1;
 import java.util.*;
 public class if_else {
     

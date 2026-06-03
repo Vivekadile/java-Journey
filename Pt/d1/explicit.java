@@ -1,3 +1,4 @@
+package Pt.d1;
 public class explicit {
     public static void main(String[] args) {
         int i=58;
