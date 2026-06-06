@@ -25,7 +25,7 @@ public class binary
         l=0;
         
 
-        for (i=l;i<r;i++)
+        while (l<r)
         {
             int mid=(r+l)/2;
             if (arr[mid]==key)
@@ -34,13 +34,14 @@ public class binary
             }
             else if (arr[mid]<key)
             {
-                l=mid;
+                l=mid+1;
 
             }
             else if (arr[mid]>key)
             {
-                r=mid;
+                r=mid-1;
             }
+            i++;
         }
         return -1;
     }
