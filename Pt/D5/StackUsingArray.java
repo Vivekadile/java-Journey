@@ -19,7 +19,6 @@ public class StackUsingArray {
             System.out.println("Stack is empty");
             return -1;
         }
-
         return list.remove(list.size() - 1);
     }
 
