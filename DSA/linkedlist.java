@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-
 public class linkedlist {
     private Node head;
 
@@ -12,9 +11,6 @@ public class linkedlist {
         {
             this.data=data;
             this.next=null;
-
-
-
         }
     }
     linkedlist()
@@ -26,8 +22,6 @@ public class linkedlist {
     {
         return (head==null);
     }
-
-
     Node createlist(int[] Values)
     {
 
@@ -40,7 +34,6 @@ public class linkedlist {
 
         }
         return head;
-
     }
     public void display()
     {
@@ -49,9 +42,7 @@ public class linkedlist {
         {
             System.out.println("Empty");
             return;
-
         }
-
         Node current=head;
         System.out.println("head->");
         while (current!=null)
@@ -65,11 +56,7 @@ public class linkedlist {
 
         }
         System.out.println("Null");
-
     }
-
-
-
     public static void main(String[] args)
     {
         int[] values1 = {10,20,30,40};
@@ -80,11 +67,8 @@ public class linkedlist {
 
         Node head1=list1.createlist(values1);
         Node head2=list2.createlist(values2);
-
+        
         head1.display();
         list2.display();
     }
-        
-    
-    
 }
